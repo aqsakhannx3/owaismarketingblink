@@ -1,0 +1,266 @@
+.smmmarketing {
+    background-image: url(../images/socialmediabackimg.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 70px auto 0;
+}
+
+
+.smmmarketingrow{
+  
+}
+
+.smmmarketingleft{
+  padding-top: 20px;
+  padding-left: 30px !important;
+ 
+}
+
+.smmmarketingleft h3{
+   
+     
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.2em;
+    color: var( --headingcolor);
+    text-align: left;
+  
+  }
+
+  .smmmarketingleft p{
+ 
+   margin-top: 50px !important;
+    color: var( --headingcolor) !important;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  margin-top: 50px;
+ font-weight: 400;
+
+  }
+  .SMMbtnsection{
+     
+      margin-top: 40px;;
+     
+  }
+
+  .SMMbtnsection button{
+  
+    height: 50px;
+    font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+      border-radius: 10px;
+      border: none;
+      line-height: 16.8px;
+      text-transform: uppercase;
+      width: 173px;
+
+
+   
+}
+
+.SMMbtnsection .SMMbtn1{
+  background: #F0A056;
+background: -webkit-linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
+background: -moz-linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
+background: linear-gradient(90deg, #FF4969 -20%, #FC9D44 115%);
+  
+   
+    color: white; 
+  
+  }
+.SMMbtnsection .SMMbtn1:hover {
+	color: #fff!important;
+	background: #F0A056;
+background: -webkit-linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
+background: -moz-linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
+background: linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%);
+}
+
+  .SMMbtnsection .SMMbtn2{
+    background: var(--headingcolor);
+    color: white;
+    margin-left: 20px;
+   
+  }
+  .SMMbtnsection .SMMbtn2:hover{
+    background: white;
+    border:2px solid var(--headingcolor); 
+    color: var(--headingcolor);
+    border: 2px solid var(--headingcolor);
+   
+  }
+  
+  /* socialmediamarketing */
+
+
+
+
+
+
+
+
+
+.SMMcol{
+  
+    margin-bottom: 25px;
+  
+  
+  }
+  .SMMcol .card{
+
+    padding:10px !important;
+    border-radius: 24px;
+    width: 263px;
+       box-shadow: 0px 0px 60px #EFF2F5;
+    min-height: 224px;
+  }
+  
+  .SMMcol .card h4{
+    
+    font-family: 'Rubik', sans-serif;
+    color: var(--headingcolor);
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 600;
+
+    text-align: left;
+    
+   margin-top: 5px;
+  
+  }
+  
+  .SMMcol .card p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: var(--headingcolor);
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: left;
+
+   margin-top: 25px;
+  
+  }
+  .SMMcol .SMM .SMMimg{
+    background-image: url("../images/groupcontactorangepng.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .SMM:hover .SMMimg{
+    background-image: url("../images/groupcontactwhitepng.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .SMM:hover h4 {
+    color: white;
+  }
+  .SMMcol .SMM:hover  p{
+    color: white;
+  }
+  .SMMcol .SMM:hover {
+  background-color: #e25c43;
+  
+  }
+  .SMScol .SMS:hover h4 {
+    color: white;
+  }
+  .SMMcol .SMS:hover  p{
+    color: white;
+  }
+  .SMMcol .SMS:hover {
+  background-color:  #28cfe8
+  
+  }
+  /* COL2 */
+  
+  
+  
+  .SMMcol .SMS .SMSimg{
+    background-image: url("../images/chess.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .SMS:hover .SMSimg{
+    background-image: url("../images/chesswhite.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .SMS:hover h4 {
+    color: white ;
+  }
+  .SMMcol .SMS:hover  p{
+    color: white ;
+  }
+  .SMScol .SMS:hover {
+    background-color: #28cfe8 ;
+          transition: 0.5s;
+  
+  }
+  
+  /* COL3 */
+  
+  
+  .SMMcol .SMC .SMCimg{
+    background-image: url("../images/speaker.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .SMC:hover .SMCimg{
+    background-image: url("../images/speakerwhite.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .SMC:hover h4 {
+    color: white;
+  }
+  .SMMcol .SMC:hover  p{
+    color: white;
+  }
+  .SMMcol .SMC:hover {
+    background-color: #84c200;
+    transition: 0.5s;
+  
+  }
+  
+  /* COL4 */
+  
+  
+  .SMMcol .CSS .CSSimg{
+    background-image: url("../images/profile.png") !important;
+  margin-top: 10px;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .CSS:hover .CSSimg{
+    background-image: url("../images/profilewhite.png") !important;
+   
+      background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .SMMcol .CSS:hover h4 {
+    color: white;
+  }
+  .SMMcol .CSS:hover  p{
+    color: white;
+  }
+  .SMMcol .CSS:hover {
+    background-color: #9929ea;
+                 
+                  transition: 0.5s;
+  
+  
+  
+  
+  
+  }
+  
